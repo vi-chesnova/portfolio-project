@@ -3,10 +3,43 @@ font-family: 'Roboto', sans-serif;*/
 
 h1 {
   font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
   font-weight: bold;
+  font-size: 72px;
+  letter-spacing: 0.1em;
 }
 
 p {
   font-family: "Roboto", sans-serif;
   font-weight: normal;
+}
+
+.hero {
+  text-align: center;
+  color: #ffffff;
+  background-color: #1b1b1b;
+  padding: 160px 20px;
+}
+
+.hero p {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+}
+
+.hero h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.btn-branding {
+  background: #ffffff;
+  border-radius: 50px;
+  padding: 18px 30px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  line-height: 17px;
 }
