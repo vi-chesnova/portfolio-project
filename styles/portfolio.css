@@ -34,6 +34,33 @@ p {
   line-height: 30px;
 }
 
+nav {
+  padding: 20px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142b2;
+  transition: all 100ms ease-in-out;
+}
+
+nav a.hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -112,6 +139,10 @@ p {
   padding: 120px 60px;
 }
 
+.logo {
+  max-height: 40px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -122,17 +153,17 @@ p {
     font-size: 42px;
   }
 
+  nav a {
+    font-size: 12px;
+  }
+
   .hero {
     padding: 80px 10px;
   }
 
-  .content-container {
-    text-align: center;
-    padding: 0;
-  }
-
+  .content-container,
   .project-description {
-    padding: 0;
     text-align: center;
+    padding: 0;
   }
 }
