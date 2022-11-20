@@ -1,8 +1,8 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
-  --heading-font-family: "Playfair Display", serif;
-  --default-font-family: "Poppins", sans-serif;
+  --branding-color: #5065a8;
+  --secondary-color: #ece7e2;
+  --heading-font-family: "Syne", sans-serif;
+  --default-font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -21,7 +21,7 @@ h6 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 80px;
 }
 
 h2 {
